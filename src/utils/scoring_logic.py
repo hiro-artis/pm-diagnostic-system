@@ -81,11 +81,11 @@ def calculate_mindset_scores(scenario_answers: dict) -> dict:
         for mindset, score in scores.items():
             mindset_totals[mindset] += score
 
-    # Convert to 0-100 scale (6 scenarios × max 5 points per mindset = 30 max)
-    # Formula: (total / 30) × 100
+    # Convert to 0-100 scale (each mindset evaluated in 2 scenarios × max 5 points = 10 max)
+    # Formula: (total / 10) × 100
     normalized_scores = {}
     for mindset, total in mindset_totals.items():
-        normalized_scores[mindset] = min(100, int((total / 30) * 100))
+        normalized_scores[mindset] = min(100, int((total / 10) * 100))
 
     # Calculate total score (average of all mindsets)
     total_score = int(sum(normalized_scores.values()) / len(normalized_scores))

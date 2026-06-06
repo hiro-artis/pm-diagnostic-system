@@ -170,24 +170,20 @@ class ComprehensiveScorerAgent(BaseAgent):
         Returns:
             Score (0-25)
         """
-        if not essay_text or len(essay_text.strip()) < 50:
+        if not essay_text or len(essay_text.strip()) < 20:
             return 5  # Minimal score for very short answers
 
         # Basic scoring logic (to be enhanced with Claude API in future)
-        score = 0
+        score = 10  # Base score for any reasonable answer
 
-        # Word count check (10 points)
-        word_count = len(essay_text.split())
-        if 200 <= word_count <= 300:
-            score += 10
-        elif 150 <= word_count <= 350:
-            score += 8
-        elif word_count >= 100:
-            score += 6
-        else:
-            score += 3
+        # Character count bonus (easier for Japanese)
+        char_count = len(essay_text.replace(" ", "").replace("\n", ""))
+        if char_count >= 100:
+            score += 5
+        if char_count >= 150:
+            score += 5
 
-        # Content keywords check (15 points)
+        # Content keywords check (bonus points)
         # Different criteria for each question
         if question_id == "OM-ES-001":
             score += self._check_es001_content(essay_text)

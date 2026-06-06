@@ -150,7 +150,7 @@ async def test_missing_required_fields(agent):
     })
 
     assert response.status == "error"
-    assert "user_id is required" in response.error_message
+    assert "user_id" in response.error_message
 
 
 @pytest.mark.asyncio

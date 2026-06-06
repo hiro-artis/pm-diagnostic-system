@@ -30,7 +30,7 @@ async def test_score_test_all_correct(agent):
         "MS-S01": "C",  # Correct
         "MS-S02": "C",  # Correct
         "MS-S03": "C",  # Correct
-        "MS-S04": "C",  # Correct
+        "MS-S04": "B",  # Correct
         "MS-S05": "C",  # Correct
         "MS-S06": "C",  # Correct
     }
@@ -75,7 +75,7 @@ async def test_score_calculation():
         "MS-S01": "C",
         "MS-S02": "C",
         "MS-S03": "C",
-        "MS-S04": "C",
+        "MS-S04": "B",  # Correct answer for scenario 4
         "MS-S05": "C",
         "MS-S06": "C",
     }

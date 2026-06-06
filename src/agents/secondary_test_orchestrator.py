@@ -5,7 +5,7 @@ from typing import Any, Dict
 
 from src.agents.mindset_interview import MindsetInterviewAgent
 from src.agents.final_assessment import FinalAssessmentAgent
-from src.models.schemas import AgentType, AgentResponse
+from src.models.schemas import AgentType, AgentResponse, FinalAssessment
 from src.storage.result_store import ResultStore
 from src.storage.session_manager import SessionManager
 
@@ -66,7 +66,7 @@ class SecondaryTestOrchestratorAgent:
                 return score_response
 
             interview_result = score_response.result["test_result"]
-            self.result_store.save_test_result(session_id, **interview_result)
+            self.result_store.save_test_result(session_id, interview_result)
             logger.info(f"Interview test completed: score={interview_result['score']}")
 
             return AgentResponse(
@@ -124,8 +124,9 @@ class SecondaryTestOrchestratorAgent:
 
             assessment = assessment_response.result["assessment"]
 
-            # Save assessment
-            self.result_store.save_final_assessment(session_id, **assessment)
+            # Save assessment (assessment is a dict, so convert to FinalAssessment object)
+            assessment_obj = FinalAssessment(**assessment)
+            self.result_store.save_final_assessment(session_id, assessment_obj)
 
             # Mark session as complete
             self.session_manager.complete_test(session_id)

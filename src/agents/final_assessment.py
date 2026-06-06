@@ -9,6 +9,7 @@ from src.models.schemas import (
     AgentType,
     AgentResponse,
     FinalAssessment,
+    MindsetScores,
 )
 
 
@@ -117,16 +118,17 @@ class FinalAssessmentAgent(BaseAgent):
         # Determine grade level
         grade_level = self._determine_grade(total_score, mindset_score)
 
-        # Extract mindset breakdown
-        mindset_breakdown = primary_results.get("mindset_breakdown", {})
+        # Extract and convert mindset breakdown
+        mindset_breakdown_dict = primary_results.get("mindset_breakdown", {})
+        mindset_breakdown = self._build_mindset_scores(mindset_breakdown_dict)
 
         # Generate strengths and development areas
-        strengths, development_areas = self._analyze_mindsets(mindset_breakdown)
+        strengths, development_areas = self._analyze_mindsets(mindset_breakdown_dict)
 
         # Generate recommendations
         recommendations = self._generate_recommendations(
             grade_level,
-            mindset_breakdown,
+            mindset_breakdown_dict,
             interview_score,
         )
 
@@ -151,6 +153,55 @@ class FinalAssessmentAgent(BaseAgent):
             primary_test_completed=True,
             secondary_test_completed=secondary_test_conducted,
             secondary_test_conducted=secondary_test_conducted,
+        )
+
+    def _build_mindset_scores(self, mindset_breakdown_dict: Dict[str, int]) -> MindsetScores:
+        """Build MindsetScores object from dictionary.
+
+        Args:
+            mindset_breakdown_dict: Dictionary of mindset scores
+
+        Returns:
+            MindsetScores object
+        """
+        if not mindset_breakdown_dict:
+            return MindsetScores(
+                future_focused=0,
+                self_responsibility=0,
+                kindness=0,
+                listening_skill=0,
+                inclusivity=0,
+                collaboration=0,
+                total_score=0,
+            )
+
+        # Calculate total score if not present
+        scores = mindset_breakdown_dict.copy()
+        if "total_score" not in scores:
+            mindset_values = [
+                v for k, v in scores.items()
+                if k in [
+                    "future_focused",
+                    "self_responsibility",
+                    "kindness",
+                    "listening_skill",
+                    "inclusivity",
+                    "collaboration",
+                ]
+            ]
+            if mindset_values:
+                scores["total_score"] = sum(mindset_values) // len(mindset_values)
+            else:
+                scores["total_score"] = 0
+
+        return MindsetScores(
+            future_focused=scores.get("future_focused", 0),
+            self_responsibility=scores.get("self_responsibility", 0),
+            kindness=scores.get("kindness", 0),
+            listening_skill=scores.get("listening_skill", 0),
+            inclusivity=scores.get("inclusivity", 0),
+            collaboration=scores.get("collaboration", 0),
+            total_score=scores.get("total_score", 0),
         )
 
     def _determine_grade(self, total_score: float, mindset_score: int) -> str:
