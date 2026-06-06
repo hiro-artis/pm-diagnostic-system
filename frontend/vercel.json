@@ -1,0 +1,14 @@
+{
+  "env": {
+    "NEXT_PUBLIC_API_BASE_URL": "@api_base_url"
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "regions": ["hnd1"],
+  "functions": {
+    "api/**": {
+      "maxDuration": 30
+    }
+  }
+}
