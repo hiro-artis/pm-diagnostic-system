@@ -1,0 +1,47 @@
+# Ignore git files
+.git
+.gitignore
+
+# Ignore Python cache
+__pycache__
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+dist/
+build/
+
+# Ignore virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Ignore IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore environment files (keep .env.example)
+.env
+.env.local
+.env.*.local
+
+# Ignore test data
+data/results/
+.pytest_cache/
+.coverage
+
+# Ignore Node modules (if any frontend build)
+node_modules/
+.next/
+
+# Ignore documentation
+docs/
+*.md
+
+# Ignore misc
+.DS_Store
+.terraform/

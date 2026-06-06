@@ -51,6 +51,8 @@ htmlcov/
 .appgenius_temp/
 
 # Data (if sensitive)
+data/results/
+data/sessions/
 data/*.json
 data/*.csv
 !data/sample_*
