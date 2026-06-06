@@ -1,0 +1,15 @@
+{
+  "test_id": "BK_1780697038.948143",
+  "session_id": "527d8cfc-4642-4bee-a271-ec73c789d7e5",
+  "test_agent": "basic_knowledge_test",
+  "score": 0,
+  "total_points": 100,
+  "passed": false,
+  "start_time": "2026-06-06T07:03:58.948143",
+  "end_time": "2026-06-06T07:03:58.948150",
+  "time_spent_seconds": 0,
+  "metadata": {},
+  "questions": [],
+  "total_questions": 10,
+  "correct_answers": 0
+}

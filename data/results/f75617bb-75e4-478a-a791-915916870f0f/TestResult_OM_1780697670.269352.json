@@ -1,0 +1,72 @@
+{
+  "test_id": "OM_1780697670.269352",
+  "session_id": "f75617bb-75e4-478a-a791-915916870f0f",
+  "test_agent": "office_migration_test",
+  "score": 40,
+  "total_points": 100,
+  "passed": false,
+  "start_time": "2026-06-06T07:14:30.269352",
+  "end_time": "2026-06-06T07:14:30.269360",
+  "time_spent_seconds": 0,
+  "metadata": {},
+  "mc_score": 25,
+  "essay_score": 15,
+  "questions": [
+    {
+      "question_id": "OM-MC-001",
+      "answer_text": "",
+      "user_answer": "C",
+      "score": 5,
+      "scoring_rationale": null
+    },
+    {
+      "question_id": "OM-MC-002",
+      "answer_text": "",
+      "user_answer": "C",
+      "score": 5,
+      "scoring_rationale": null
+    },
+    {
+      "question_id": "OM-MC-003",
+      "answer_text": "",
+      "user_answer": "B",
+      "score": 5,
+      "scoring_rationale": null
+    },
+    {
+      "question_id": "OM-MC-004",
+      "answer_text": "",
+      "user_answer": "C",
+      "score": 5,
+      "scoring_rationale": null
+    },
+    {
+      "question_id": "OM-MC-005",
+      "answer_text": "",
+      "user_answer": "B",
+      "score": 5,
+      "scoring_rationale": null
+    },
+    {
+      "question_id": "OM-ES-001",
+      "answer_text": "\u30ea\u30b9\u30af\u5206\u6790\u3068\u5bfe\u5fdc\u7b56\u3001\u30b3\u30df\u30e5\u30cb\u30b1\u30fc\u30b7\u30e7\u30f3\u65b9\u6cd5\u306b\u3064\u3044\u3066\u8a73\u3057\u304f\u8ff0\u3079\u308b\u3002",
+      "user_answer": null,
+      "score": 5,
+      "scoring_rationale": "Pending comprehensive scorer evaluation"
+    },
+    {
+      "question_id": "OM-ES-002",
+      "answer_text": "\u5224\u65ad\u30d7\u30ed\u30bb\u30b9\u3001\u8907\u6570\u306e\u9078\u629e\u80a2\u3001\u63a8\u5968\u6848\u306b\u3064\u3044\u3066\u8ff0\u3079\u308b\u3002",
+      "user_answer": null,
+      "score": 5,
+      "scoring_rationale": "Pending comprehensive scorer evaluation"
+    },
+    {
+      "question_id": "OM-ES-003",
+      "answer_text": "\u30e1\u30f3\u30d0\u30fc\u306e\u4e0d\u5b89\u89e3\u6d88\u3068\u90e8\u9580\u9593\u5354\u529b\u6df1\u5316\u306e\u65bd\u7b56\u306b\u3064\u3044\u3066\u8ff0\u3079\u308b\u3002",
+      "user_answer": null,
+      "score": 5,
+      "scoring_rationale": "Pending comprehensive scorer evaluation"
+    }
+  ]
+}

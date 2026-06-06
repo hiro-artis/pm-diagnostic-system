@@ -1,0 +1,66 @@
+{
+  "test_id": "MS_1780697672.188785",
+  "session_id": "7b5aa118-a438-4a2b-9198-09aed8792ab0",
+  "test_agent": "mindset_test",
+  "score": 28,
+  "total_points": 100,
+  "passed": false,
+  "start_time": "2026-06-06T07:14:32.188785",
+  "end_time": "2026-06-06T07:14:32.188799",
+  "time_spent_seconds": 0,
+  "metadata": {},
+  "scenarios": [
+    {
+      "scenario_id": "MS-S01",
+      "user_answer": "C",
+      "score": 15,
+      "scoring_rationale": "Answer: C",
+      "mindset_scores": {}
+    },
+    {
+      "scenario_id": "MS-S02",
+      "user_answer": "C",
+      "score": 15,
+      "scoring_rationale": "Answer: C",
+      "mindset_scores": {}
+    },
+    {
+      "scenario_id": "MS-S03",
+      "user_answer": "C",
+      "score": 15,
+      "scoring_rationale": "Answer: C",
+      "mindset_scores": {}
+    },
+    {
+      "scenario_id": "MS-S04",
+      "user_answer": "C",
+      "score": 10,
+      "scoring_rationale": "Answer: C",
+      "mindset_scores": {}
+    },
+    {
+      "scenario_id": "MS-S05",
+      "user_answer": "C",
+      "score": 15,
+      "scoring_rationale": "Answer: C",
+      "mindset_scores": {}
+    },
+    {
+      "scenario_id": "MS-S06",
+      "user_answer": "C",
+      "score": 15,
+      "scoring_rationale": "Answer: C",
+      "mindset_scores": {}
+    }
+  ],
+  "mindset_scores": {
+    "future_focused": 33,
+    "self_responsibility": 33,
+    "kindness": 33,
+    "listening_skill": 20,
+    "inclusivity": 33,
+    "collaboration": 20,
+    "total_score": 28
+  },
+  "passes_secondary_test": false
+}

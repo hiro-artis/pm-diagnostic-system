@@ -1,0 +1,76 @@
+{
+  "test_id": "BK_1780697686.26683",
+  "session_id": "fe2bf9e5-f200-4a9c-9e34-b4ecef998cf8",
+  "test_agent": "basic_knowledge_test",
+  "score": 100,
+  "total_points": 100,
+  "passed": true,
+  "start_time": "2026-06-06T07:14:46.266830",
+  "end_time": "2026-06-06T07:14:46.266840",
+  "time_spent_seconds": 0,
+  "metadata": {},
+  "questions": [
+    {
+      "question_id": "BK-001",
+      "user_answer": "B",
+      "is_correct": true,
+      "score": 10
+    },
+    {
+      "question_id": "BK-002",
+      "user_answer": "D",
+      "is_correct": true,
+      "score": 10
+    },
+    {
+      "question_id": "BK-003",
+      "user_answer": "A",
+      "is_correct": true,
+      "score": 10
+    },
+    {
+      "question_id": "BK-004",
+      "user_answer": "B",
+      "is_correct": true,
+      "score": 10
+    },
+    {
+      "question_id": "BK-005",
+      "user_answer": "D",
+      "is_correct": true,
+      "score": 10
+    },
+    {
+      "question_id": "BK-006",
+      "user_answer": "B",
+      "is_correct": true,
+      "score": 10
+    },
+    {
+      "question_id": "BK-007",
+      "user_answer": "C",
+      "is_correct": true,
+      "score": 10
+    },
+    {
+      "question_id": "BK-008",
+      "user_answer": "B",
+      "is_correct": true,
+      "score": 10
+    },
+    {
+      "question_id": "BK-009",
+      "user_answer": "C",
+      "is_correct": true,
+      "score": 10
+    },
+    {
+      "question_id": "BK-010",
+      "user_answer": "D",
+      "is_correct": true,
+      "score": 10
+    }
+  ],
+  "total_questions": 10,
+  "correct_answers": 10
+}

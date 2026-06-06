@@ -1,0 +1,11 @@
+{
+  "session_id": "9cad2e28-d577-4ae9-b6bc-17b43c24eadd",
+  "user_id": "test_user_002",
+  "created_at": "2026-06-06T07:14:43.260535",
+  "started_at": "2026-06-06T07:14:43.260645",
+  "ended_at": null,
+  "current_phase": "primary_test",
+  "current_test_agent": "basic_knowledge_test",
+  "status": "in_progress",
+  "timeout_seconds": 3600
+}
