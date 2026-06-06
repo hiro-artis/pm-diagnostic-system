@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gcloud *)",
+      "Bash(node scripts/gcloud-auth-*.js)",
+      "Bash(npm *)",
+      "Read",
+      "Edit",
+      "Write"
+    ]
+  },
+  "hooks": {
+    "PostToolUseFailure": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "if": "Bash(gcloud *)",
+            "command": "bash \"$(pwd)/scripts/gcloud-auth-mcp.sh\"",
+            "timeout": 120,
+            "statusMessage": "Authenticating with gcloud via Playwright...",
+            "shell": "bash"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledMcpjsonServers": ["playwright"]
+}

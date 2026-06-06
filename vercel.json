@@ -1,0 +1,21 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/home",
+      "permanent": false
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "$NEXT_PUBLIC_API_BASE_URL/api/:path*"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_API_BASE_URL": "@next_public_api_base_url"
+  }
+}
