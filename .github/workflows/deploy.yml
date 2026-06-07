@@ -127,21 +127,22 @@ jobs:
     name: Send Slack Notification
     runs-on: ubuntu-latest
     needs: [deploy-backend, deploy-frontend]
-    if: always() && secrets.SLACK_WEBHOOK_URL != ''
+    if: always()
 
     steps:
       - name: Send Slack message
+        if: secrets.SLACK_WEBHOOK_URL != ''
         uses: slackapi/slack-github-action@v1.24.0
         with:
           payload: |
             {
-              "text": "${{ job.status == 'success' && '✅' || '❌' }} PM診断システム - ${{ job.status == 'success' && 'デプロイ成功' || 'デプロイ失敗' }}",
+              "text": "${{ needs.deploy-backend.result == 'success' && '✅' || '❌' }} PM診断システム - デプロイ",
               "blocks": [
                 {
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*${{ job.status == 'success' && '✅ デプロイ成功' || '❌ デプロイ失敗' }}*\n\n🌐 Backend: https://pm-diagnostic-api.run.app\n🌐 Frontend: https://pm-diagnostic.vercel.app\n📊 Commit: ${{ github.sha }}\n👤 Author: ${{ github.actor }}"
+                    "text": "*${{ needs.deploy-backend.result == 'success' && '✅ デプロイ成功' || '❌ デプロイ失敗' }}*\n\n🌐 Backend: https://pm-diagnostic-api.run.app\n🌐 Frontend: https://pm-diagnostic.vercel.app\n📊 Commit: ${{ github.sha }}\n👤 Author: ${{ github.actor }}"
                   }
                 }
               ]
