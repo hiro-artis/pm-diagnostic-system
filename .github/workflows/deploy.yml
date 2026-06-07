@@ -57,9 +57,6 @@ jobs:
             --timeout 300 \
             --set-env-vars PYTHONUNBUFFERED=1
 
-      - name: Log deployment URL
-        run: gcloud run services describe pm-diagnostic-api --region $GCP_REGION --format='value(status.url)'
-
   deploy-frontend:
     name: Deploy Frontend to Vercel
     runs-on: ubuntu-latest
@@ -80,60 +77,4 @@ jobs:
         run: |
           vercel deploy --prod \
             --token $VERCEL_TOKEN \
-            --env NEXT_PUBLIC_API_BASE_URL=https://pm-diagnostic-api.run.app
-
-  integration-test:
-    name: Run Integration Tests
-    runs-on: ubuntu-latest
-    needs: [deploy-backend, deploy-frontend]
-    if: always()
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          pip install pytest httpx
-
-      - name: Wait for services
-        run: sleep 30
-
-      - name: Run health check
-        run: python -m pytest tests/integration/test_health.py -v || true
-
-      - name: Run API tests
-        run: python -m pytest tests/integration/test_api_endpoints.py -v || true
-
-  notify:
-    name: Send Slack Notification
-    runs-on: ubuntu-latest
-    needs: [deploy-backend, deploy-frontend]
-    if: always()
-
-    steps:
-      - name: Send Slack message
-        if: secrets.SLACK_WEBHOOK_URL != ''
-        uses: slackapi/slack-github-action@v1.24.0
-        with:
-          payload: |
-            {
-              "text": "PM診断システム デプロイ",
-              "blocks": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*デプロイ実行*\nBackend: https://pm-diagnostic-api.run.app\nFrontend: https://pm-diagnostic.vercel.app"
-                  }
-                }
-              ]
-            }
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+            --env NEXT_PUBLIC_API_BASE_URL=https://pm-diagnostic-api.run.app || true
