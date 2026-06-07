@@ -1,0 +1,407 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "hiro-4211's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /hiro-4211s-projects
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: hiro-4211's projects
+                - generic [ref=e15]: Hobby
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e21]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e34]:
+            - link "Projects" [ref=e35] [cursor=pointer]:
+              - /url: /hiro-4211s-projects
+              - img [ref=e37]
+              - generic [ref=e40]: Projects
+            - link "Deployments" [ref=e41] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/deployments
+              - img [ref=e43]
+              - generic [ref=e46]: Deployments
+            - link "Logs" [ref=e47] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/logs
+              - img [ref=e49]
+              - generic [ref=e52]: Logs
+            - link "Analytics" [ref=e53] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/analytics
+              - img [ref=e55]
+              - generic [ref=e58]: Analytics
+            - link "Speed Insights" [ref=e59] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/speed-insights
+              - img [ref=e61]
+              - generic [ref=e64]: Speed Insights
+            - link "Observability" [ref=e65] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/observability
+              - img [ref=e67]
+              - generic [ref=e70]: Observability
+              - img [ref=e72]
+            - link "Firewall" [ref=e74] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/firewall
+              - img [ref=e76]
+              - generic [ref=e80]: Firewall
+            - link "CDN" [ref=e81] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/cdn
+              - img [ref=e83]
+              - generic [ref=e86]: CDN
+            - separator [ref=e87]
+            - link "Environment Variables" [ref=e88] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/settings/environment-variables
+              - img [ref=e90]
+              - generic [ref=e93]: Environment Variables
+            - link "Domains" [ref=e94] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/domains
+              - img [ref=e96]
+              - generic [ref=e99]: Domains
+            - link "Integrations" [ref=e100] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/integrations
+              - img [ref=e102]
+              - generic [ref=e105]: Integrations
+            - link "Storage" [ref=e106] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/stores
+              - img [ref=e108]
+              - generic [ref=e111]: Storage
+            - link "Flags" [ref=e112] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/experimentation/collections
+              - img [ref=e114]
+              - generic [ref=e117]: Flags
+            - link "Agent" [ref=e118] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/agent
+              - img [ref=e120]
+              - generic [ref=e123]: Agent
+              - img [ref=e125]
+            - link "AI Gateway" [ref=e127] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/ai-gateway
+              - img [ref=e129]
+              - generic [ref=e132]: AI Gateway
+              - img [ref=e134]
+            - link "Sandboxes" [ref=e136] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/sandboxes
+              - img [ref=e138]
+              - generic [ref=e141]: Sandboxes
+              - img [ref=e143]
+            - link "Workflows" [ref=e145] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/workflows
+              - img [ref=e147]
+              - generic [ref=e150]: Workflows
+            - separator [ref=e151]
+            - link "Usage" [ref=e152] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/usage
+              - img [ref=e154]
+              - generic [ref=e157]: Usage
+            - link "Support" [ref=e158] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/support
+              - img [ref=e160]
+              - generic [ref=e163]: Support
+            - link "Settings" [ref=e164] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/~/settings
+              - img [ref=e166]
+              - generic [ref=e169]: Settings
+              - img [ref=e171]
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - generic [ref=e180]:
+                - generic [ref=e181]: Ship
+                - generic [ref=e183]: "26"
+              - button "Dismiss" [ref=e184] [cursor=pointer]:
+                - img [ref=e186]
+            - generic [ref=e188]:
+              - generic [ref=e189]: Coming to five cities worldwide.
+              - button "Get your ticket" [ref=e191] [cursor=pointer]:
+                - generic [ref=e192]: Get your ticket
+          - generic [ref=e194]:
+            - button "Avatar for hiro-4211 hiro-4211" [ref=e195] [cursor=pointer]:
+              - img "Avatar for hiro-4211" [ref=e196]:
+                - img "Avatar for hiro-4211" [ref=e197]
+              - generic [ref=e199]: hiro-4211
+              - img [ref=e201]
+            - button "notifications" [ref=e205] [cursor=pointer]:
+              - generic [ref=e207]:
+                - img
+      - button [ref=e209] [cursor=pointer]:
+        - img [ref=e210]
+    - generic [ref=e213]:
+      - generic [ref=e214]:
+        - button "All projects" [ref=e218] [cursor=pointer]:
+          - generic [ref=e219]: All projects
+          - img [ref=e221]
+        - generic [ref=e225]: Overview
+        - button "Open page actions menu" [ref=e227] [cursor=pointer]:
+          - img [ref=e229]
+      - generic [ref=e234]:
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - searchbox "Search" [ref=e238]
+            - img [ref=e240]
+          - button "Filter and Sort Projects" [ref=e242] [cursor=pointer]:
+            - img [ref=e245]
+          - generic [ref=e247]:
+            - generic [ref=e248]:
+              - radio "grid" [checked] [ref=e249]
+              - generic [ref=e250] [cursor=pointer]:
+                - img [ref=e251]
+                - generic [ref=e253]: grid
+            - generic [ref=e254]:
+              - radio "list" [ref=e255]
+              - generic [ref=e256] [cursor=pointer]:
+                - img [ref=e257]
+                - generic [ref=e259]: list
+          - button "Add New..." [ref=e260] [cursor=pointer]:
+            - generic [ref=e262]: Add New...
+            - img [ref=e264]
+        - generic [ref=e266]:
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - link "Usage" [ref=e272] [cursor=pointer]:
+                - /url: /hiro-4211s-projects/~/usage
+              - generic [ref=e273]:
+                - generic [ref=e274]:
+                  - link "Last 30 days" [ref=e276] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/~/usage
+                  - button "Upgrade" [ref=e277] [cursor=pointer]:
+                    - generic [ref=e278]: Upgrade
+                - list [ref=e279]:
+                  - listitem [ref=e280]:
+                    - link "1.3596000000000001 Edge Requests 14K / 1M 10M" [ref=e281] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/networking-edge-requests
+                      - progressbar [ref=e282]:
+                        - img [ref=e283]
+                      - generic [ref=e286]:
+                        - generic [ref=e287]: Edge Requests
+                        - img [ref=e290]
+                      - generic [ref=e293]:
+                        - text: 14K /
+                        - generic [ref=e294]: 1M
+                      - generic: 10M
+                  - listitem [ref=e295]:
+                    - link "0.22916666666666666 Fluid Active CPU 33s / 4h 16h" [ref=e296] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/vercel-functions-fluid-cpu-duration
+                      - progressbar [ref=e297]:
+                        - img [ref=e298]
+                      - generic [ref=e301]:
+                        - generic [ref=e302]: Fluid Active CPU
+                        - img [ref=e305]
+                      - generic [ref=e308]:
+                        - text: 33s /
+                        - generic [ref=e309]: 4h
+                      - generic: 16h
+                  - listitem [ref=e310]:
+                    - link "0.1021056 Fluid Provisioned Memory 0.37 GB-Hrs / 360 GB-Hrs 1,440 GB-Hrs" [ref=e311] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/vercel-functions-fluid-duration
+                      - progressbar [ref=e312]:
+                        - img [ref=e313]
+                      - generic [ref=e316]:
+                        - generic [ref=e317]: Fluid Provisioned Memory
+                        - img [ref=e320]
+                      - generic [ref=e323]:
+                        - text: 0.37 GB-Hrs /
+                        - generic [ref=e324]: 360 GB-Hrs
+                      - generic: 1,440 GB-Hrs
+                  - listitem [ref=e325]:
+                    - link "0.07305616399999999 Fast Data Transfer 73.06 MB / 100 GB 1 TB" [ref=e326] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/networking-fast-data-transfer
+                      - progressbar [ref=e327]:
+                        - img [ref=e328]
+                      - generic [ref=e331]:
+                        - generic [ref=e332]: Fast Data Transfer
+                        - img [ref=e335]
+                      - generic [ref=e338]:
+                        - text: 73.06 MB /
+                        - generic [ref=e339]: 100 GB
+                      - generic: 1 TB
+                  - listitem [ref=e340]:
+                    - link "0.0275 Edge Request CPU Duration 1s / 1h" [ref=e341] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/networking-edge-request-cpu-duration
+                      - progressbar [ref=e342]:
+                        - img [ref=e343]
+                      - generic [ref=e346]:
+                        - generic [ref=e347]: Edge Request CPU Duration
+                        - img [ref=e350]
+                      - generic [ref=e353]: 1s / 1h
+                  - listitem [ref=e354]:
+                    - link "0.026899999999999997 Function Invocations 269 / 1M" [ref=e355] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/vercel-functions-invocations
+                      - progressbar [ref=e356]:
+                        - img [ref=e357]
+                      - generic [ref=e360]:
+                        - generic [ref=e361]: Function Invocations
+                        - img [ref=e364]
+                      - generic [ref=e367]: 269 / 1M
+                  - listitem [ref=e368]:
+                    - link "0.0033863499999999998 Fast Origin Transfer 338.64 kB / 10 GB 100 GB" [ref=e369] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/networking-fast-origin-transfer
+                      - progressbar [ref=e370]:
+                        - img [ref=e371]
+                      - generic [ref=e374]:
+                        - generic [ref=e375]: Fast Origin Transfer
+                        - img [ref=e378]
+                      - generic [ref=e381]:
+                        - text: 338.64 kB /
+                        - generic [ref=e382]: 10 GB
+                      - generic: 100 GB
+                  - listitem [ref=e383]:
+                    - link "0 Microfrontends Routing 0 / 50K" [ref=e384] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/networking-microfrontends-routing
+                      - progressbar [ref=e385]:
+                        - img [ref=e386]
+                      - generic [ref=e389]:
+                        - generic [ref=e390]: Microfrontends Routing
+                        - img [ref=e393]
+                      - generic [ref=e396]: 0 / 50K
+                  - listitem [ref=e397]:
+                    - link "0 ISR Reads 0 / 1M 10M" [ref=e398] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/isr-reads
+                      - progressbar [ref=e399]:
+                        - img [ref=e400]
+                      - generic [ref=e403]:
+                        - generic [ref=e404]: ISR Reads
+                        - img [ref=e407]
+                      - generic [ref=e410]:
+                        - text: 0 /
+                        - generic [ref=e411]: 1M
+                      - generic: 10M
+                  - listitem [ref=e412]:
+                    - link "0 ISR Writes 0 / 200K 2M" [ref=e413] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/~/usage/isr-writes
+                      - progressbar [ref=e414]:
+                        - img [ref=e415]
+                      - generic [ref=e418]:
+                        - generic [ref=e419]: ISR Writes
+                        - img [ref=e422]
+                      - generic [ref=e425]:
+                        - text: 0 /
+                        - generic [ref=e426]: 200K
+                      - generic: 2M
+              - button "Show More Usage" [ref=e427] [cursor=pointer]:
+                - img [ref=e429]
+            - generic [ref=e431]:
+              - link "Alerts" [ref=e433] [cursor=pointer]:
+                - /url: /hiro-4211s-projects/~/observability/alerts
+              - generic [ref=e438]:
+                - generic [ref=e439]:
+                  - generic [ref=e440]: Get alerted for anomalies
+                  - generic [ref=e441]: Automatically monitor your projects for anomalies and get notified.
+                - button "Upgrade to Pro" [ref=e442] [cursor=pointer]:
+                  - generic [ref=e443]: Upgrade to Pro
+            - generic [ref=e444]:
+              - generic [ref=e446]: Recent Previews
+              - list [ref=e447]:
+                - generic [ref=e448]:
+                  - img [ref=e451]
+                  - generic [ref=e454]: Preview deployments that you have recently visited or created will appear here.
+          - generic [ref=e456]:
+            - generic [ref=e458]: Projects
+            - list [ref=e459]:
+              - listitem [ref=e460]:
+                - link [ref=e461] [cursor=pointer]:
+                  - /url: /hiro-4211s-projects/frontend
+                - generic [ref=e462]:
+                  - link [ref=e463] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/frontend
+                    - img [ref=e465]
+                  - generic [ref=e466]:
+                    - link "frontend" [ref=e467] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/frontend
+                      - generic [ref=e469]: frontend
+                    - link "frontend-two-virid.vercel.app" [ref=e470] [cursor=pointer]:
+                      - /url: https://frontend-two-virid.vercel.app
+                  - link "0" [ref=e471] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/frontend#production-checklist
+                    - progressbar [ref=e473]:
+                      - img [ref=e474]
+                      - img [ref=e479]
+                  - button "Project Menu" [ref=e481] [cursor=pointer]:
+                    - img [ref=e484]
+                - generic [ref=e486]:
+                  - link "Connect Git Repository" [ref=e487] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/frontend/settings/git
+                  - generic [ref=e491] [cursor=pointer]: 5m ago
+              - listitem [ref=e492]:
+                - link [ref=e493] [cursor=pointer]:
+                  - /url: /hiro-4211s-projects/shibito-backend
+                - generic [ref=e494]:
+                  - link [ref=e495] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/shibito-backend
+                    - img [ref=e497]
+                  - generic [ref=e498]:
+                    - link "shibito-backend" [ref=e499] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/shibito-backend
+                      - generic [ref=e501]: shibito-backend
+                    - link "shibito-backend.vercel.app" [ref=e502] [cursor=pointer]:
+                      - /url: https://shibito-backend.vercel.app
+                  - link "0" [ref=e503] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/shibito-backend/speed-insights
+                    - progressbar [ref=e505]:
+                      - img [ref=e506]
+                      - img [ref=e511]
+                  - button "Project Menu" [ref=e513] [cursor=pointer]:
+                    - img [ref=e516]
+                - generic [ref=e518]:
+                  - link "Connect Git Repository" [ref=e519] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/shibito-backend/settings/git
+                  - generic [ref=e523] [cursor=pointer]: 3d ago
+              - listitem [ref=e524]:
+                - link [ref=e525] [cursor=pointer]:
+                  - /url: /hiro-4211s-projects/shibito-frontend
+                - generic [ref=e526]:
+                  - link [ref=e527] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/shibito-frontend
+                    - img [ref=e529]
+                  - generic [ref=e530]:
+                    - link "shibito-frontend" [ref=e531] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/shibito-frontend
+                      - generic [ref=e533]: shibito-frontend
+                    - link "shibito-frontend.vercel.app" [ref=e534] [cursor=pointer]:
+                      - /url: https://shibito-frontend.vercel.app
+                  - link "0" [ref=e535] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/shibito-frontend#production-checklist
+                    - progressbar [ref=e537]:
+                      - img [ref=e538]
+                      - img [ref=e543]
+                  - button "Project Menu" [ref=e545] [cursor=pointer]:
+                    - img [ref=e548]
+                - generic [ref=e550]:
+                  - link "Connect Git Repository" [ref=e551] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/shibito-frontend/settings/git
+                  - generic [ref=e555] [cursor=pointer]: 3d ago
+              - listitem [ref=e556]:
+                - link [ref=e557] [cursor=pointer]:
+                  - /url: /hiro-4211s-projects/meiban-web
+                - generic [ref=e558]:
+                  - link [ref=e559] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/meiban-web
+                    - img [ref=e561]
+                  - generic [ref=e562]:
+                    - link "meiban-web" [ref=e563] [cursor=pointer]:
+                      - /url: /hiro-4211s-projects/meiban-web
+                      - generic [ref=e565]: meiban-web
+                    - link "yawarakaikimochi.com" [ref=e566] [cursor=pointer]:
+                      - /url: https://yawarakaikimochi.com
+                  - link "0" [ref=e567] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/meiban-web#production-checklist
+                    - progressbar [ref=e569]:
+                      - img [ref=e570]
+                      - img [ref=e575]
+                  - button "Project Menu" [ref=e577] [cursor=pointer]:
+                    - img [ref=e580]
+                - generic [ref=e582]:
+                  - link "Connect Git Repository" [ref=e583] [cursor=pointer]:
+                    - /url: /hiro-4211s-projects/meiban-web/settings/git
+                  - generic [ref=e587] [cursor=pointer]: May 10
+  - alert [ref=e589]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img

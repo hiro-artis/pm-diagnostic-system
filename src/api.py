@@ -3,10 +3,11 @@
 import asyncio
 import logging
 import os
-from typing import Dict, Optional
+from typing import Any, Dict, Optional
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
 from src.agents.primary_test_orchestrator import PrimaryTestOrchestratorAgent
@@ -90,6 +91,12 @@ class SecondaryTestResultResponse(BaseModel):
     status: str
     interview_score: int
     revised_mindset_scores: Dict[str, int]
+
+
+class FinalAssessmentRequest(BaseModel):
+    session_id: str
+    primary_scores: Dict[str, Any]
+    secondary_scores: Optional[Dict[str, Any]] = None
 
 
 class FinalAssessmentResponse(BaseModel):
@@ -198,26 +205,23 @@ async def submit_secondary_test(request: SecondaryTestAnswers):
 
 # ===== Final Assessment =====
 
-@app.post("/api/assessment/final")
-async def generate_final_assessment(
-    session_id: str,
-    primary_scores: Dict,
-    secondary_scores: Optional[Dict] = None
-):
+@app.post("/api/assessment/final", response_model=FinalAssessmentResponse)
+async def generate_final_assessment(request: FinalAssessmentRequest):
     """Generate final assessment."""
     try:
-        logger.info(f"Generating final assessment for session: {session_id}")
+        logger.info(f"Generating final assessment for session: {request.session_id}")
 
-        result = await final_assessment.evaluate(
-            session_id=session_id,
-            primary_results=primary_scores,
-            secondary_results=secondary_scores
-        )
+        result = await final_assessment.execute({
+            "session_id": request.session_id,
+            "user_id": request.session_id,
+            "primary_results": request.primary_scores,
+            "secondary_results": request.secondary_scores
+        })
 
         if result.status == "success":
             assessment = result.result.get("assessment", {})
             return FinalAssessmentResponse(
-                session_id=session_id,
+                session_id=request.session_id,
                 grade_level=assessment.get("grade_level", "N/A"),
                 total_score=assessment.get("total_score", 0),
                 summary=assessment.get("summary", ""),
@@ -239,11 +243,14 @@ async def generate_final_assessment(
 async def http_exception_handler(request, exc):
     """Handle HTTP exceptions."""
     logger.error(f"HTTP Exception: {exc.detail}")
-    return {
-        "status": "error",
-        "message": exc.detail,
-        "status_code": exc.status_code
-    }
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={
+            "status": "error",
+            "message": exc.detail,
+            "status_code": exc.status_code
+        }
+    )
 
 
 if __name__ == "__main__":

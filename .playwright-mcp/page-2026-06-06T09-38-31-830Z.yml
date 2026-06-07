@@ -1,0 +1,29 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Back to Dashboard" [ref=e9] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e10]
+          - generic [ref=e12]: Back
+        - generic [ref=e14]: Not Found
+        - button "Avatar for hiro-4211" [ref=e18] [cursor=pointer]:
+          - img "Avatar for hiro-4211" [ref=e19]:
+            - img "Avatar for hiro-4211" [ref=e20]
+      - generic [ref=e26]:
+        - img [ref=e27]
+        - heading "404" [level=1] [ref=e34]
+        - generic [ref=e36]:
+          - paragraph [ref=e37]:
+            - text: You are logged in as
+            - strong [ref=e38]: hiro@artis-inc.co.jp
+          - button "Sign in as a different user" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: Sign in as a different user
+  - alert [ref=e41]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img

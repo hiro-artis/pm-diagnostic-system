@@ -1,0 +1,65 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading "PM協会テスト診断システム" [level=1] [ref=e6]
+        - paragraph [ref=e7]: AI エージェントによる PM 適性診断
+    - main [ref=e8]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "1次テストについて" [level=2] [ref=e69]
+          - paragraph [ref=e70]: テスト開始前に、以下の内容をご確認ください
+        - generic [ref=e72]:
+          - heading "1次テストの構成" [level=3] [ref=e73]
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - generic [ref=e78]: "1"
+              - generic [ref=e79]:
+                - paragraph [ref=e80]: PM基礎知識テスト
+                - paragraph [ref=e81]: プロジェクト管理の基礎知識 10 問 / 選択式
+                - paragraph [ref=e82]: 所要時間：10〜15 分
+            - generic [ref=e83]:
+              - generic [ref=e86]: "2"
+              - generic [ref=e87]:
+                - paragraph [ref=e88]: オフィス移転実務テスト
+                - paragraph [ref=e89]: 選択式 5 問 + 記述式 3 問 / 実践的シナリオ
+                - paragraph [ref=e90]: 所要時間：25〜35 分
+            - generic [ref=e91]:
+              - generic [ref=e94]: "3"
+              - generic [ref=e95]:
+                - paragraph [ref=e96]: マインドセット検証
+                - paragraph [ref=e97]: 6 つのシナリオ型問題 / PM最重要スキル
+                - paragraph [ref=e98]: 所要時間：15〜25 分
+        - generic [ref=e99]:
+          - heading "テスト実施時のご注意" [level=3] [ref=e100]
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - generic [ref=e103]: •
+              - generic [ref=e104]: テスト開始後の中断・一時停止はできません
+            - listitem [ref=e105]:
+              - generic [ref=e106]: •
+              - generic [ref=e107]: 合計 60 分程度の時間を確保してからご開始ください
+            - listitem [ref=e108]:
+              - generic [ref=e109]: •
+              - generic [ref=e110]: 通信環境が安定している場所でご実施ください
+            - listitem [ref=e111]:
+              - generic [ref=e112]: •
+              - generic [ref=e113]: 正答・不正答を競うテストではなく、マインドセットを評価します
+            - listitem [ref=e114]:
+              - generic [ref=e115]: •
+              - generic [ref=e116]: あなたの率直な考えと判断をお答えください
+        - generic [ref=e118] [cursor=pointer]:
+          - checkbox "上記の内容を確認しました。 テストを開始します。" [ref=e119]
+          - generic [ref=e120]:
+            - text: 上記の内容を確認しました。
+            - text: テストを開始します。
+        - generic [ref=e121]:
+          - button "戻る" [ref=e122] [cursor=pointer]
+          - button "テストを開始" [disabled] [ref=e123]:
+            - text: テストを開始
+            - img [ref=e124]
+    - contentinfo [ref=e63]:
+      - generic [ref=e64]:
+        - paragraph [ref=e65]: PM協会テスト診断システム v1.0.0
+        - paragraph [ref=e66]: © 2026 PM Association. All rights reserved.

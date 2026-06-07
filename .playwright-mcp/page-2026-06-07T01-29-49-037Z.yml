@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading "PM協会テスト診断システム" [level=1] [ref=e6]
+        - paragraph [ref=e7]: AI エージェントによる PM 適性診断
+    - main [ref=e8]:
+      - paragraph [ref=e130]: セッション情報が見つかりません
+    - contentinfo [ref=e63]:
+      - generic [ref=e64]:
+        - paragraph [ref=e65]: PM協会テスト診断システム v1.0.0
+        - paragraph [ref=e66]: © 2026 PM Association. All rights reserved.

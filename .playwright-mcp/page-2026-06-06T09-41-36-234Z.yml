@@ -1,0 +1,395 @@
+- generic:
+  - link:
+    - /url: "#geist-skip-nav"
+    - text: Skip to content
+  - generic:
+    - main:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - link:
+                    - /url: /hiro-4211s-projects
+                    - img
+                    - generic:
+                      - generic: hiro-4211's projects
+                      - generic:
+                        - generic: Hobby
+                  - button:
+                    - generic:
+                      - img
+            - button [ref=e372]:
+              - generic [ref=e23]:
+                - img [ref=e25]
+                - generic [ref=e27]: Find…
+                - generic [ref=e29]: F
+          - generic:
+            - navigation:
+              - generic:
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend
+                      - generic:
+                        - img:
+                          - img
+                      - generic:
+                        - generic: Overview
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/deployments
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Deployments
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/logs
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Logs
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/analytics
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Analytics
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/speed-insights
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Speed Insights
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/observability
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Observability
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/firewall
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Firewall
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/cdn
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: CDN
+                      - generic:
+                        - img
+                    - separator
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/settings/environment-variables
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Environment Variables
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/settings/domains
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Domains
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/settings/integrations
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Integrations
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/stores
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Storage
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/flags
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Flags
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/agent
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Agent
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/ai-gateway
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: AI Gateway
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/sandboxes
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Sandboxes
+                      - generic:
+                        - img
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/workflows
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Workflows
+                    - separator
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/usage
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Usage
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/support
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Support
+                    - link:
+                      - /url: /hiro-4211s-projects/frontend/settings
+                      - generic:
+                        - img
+                      - generic:
+                        - generic: Settings
+                      - generic:
+                        - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: Ship
+                      - generic:
+                        - generic: "26"
+                - button:
+                  - generic:
+                    - img
+              - generic:
+                - generic: Coming to five cities worldwide.
+                - generic:
+                  - button:
+                    - generic: Get your ticket
+            - generic:
+              - generic:
+                - button:
+                  - img:
+                    - img
+                  - generic:
+                    - generic: hiro-4211
+                  - generic:
+                    - img
+                - generic:
+                  - generic:
+                    - button:
+                      - generic:
+                        - generic:
+                          - img
+                        - img
+        - button:
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - link:
+                    - /url: /hiro-4211s-projects/frontend
+                    - img:
+                      - img
+                    - generic:
+                      - generic: frontend
+                  - button:
+                    - generic:
+                      - img
+                  - generic:
+                    - link:
+                      - /url: /hiro-4211s-projects/~/settings/environment-variables
+                      - generic:
+                        - img
+            - generic:
+              - generic:
+                - generic: Environment Variables
+            - generic:
+              - button:
+                - generic:
+                  - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - heading [level=2]: Environment Variables
+                                - paragraph:
+                                  - text: Store API keys, tokens, and config securely.
+                                  - link:
+                                    - /url: /docs/environment-variables
+                                    - text: Learn more
+                                    - img
+                              - generic:
+                                - generic:
+                                  - button:
+                                    - generic: Link Shared Variable
+                                - button:
+                                  - generic: Add Environment Variable
+                          - tablist:
+                            - tab [selected]: Project
+                            - tab: Shared
+                          - generic:
+                            - generic:
+                              - generic:
+                                - searchbox
+                                - generic:
+                                  - img
+                            - generic:
+                              - combobox:
+                                - generic:
+                                  - generic:
+                                    - searchbox: All Environments
+                                    - button:
+                                      - img
+                            - generic:
+                              - combobox:
+                                - generic:
+                                  - generic:
+                                    - img
+                                  - searchbox
+                                  - button:
+                                    - img
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - combobox
+                                  - generic:
+                                    - img
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - img
+                                  - combobox
+                                  - generic:
+                                    - img
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: No Environment Variables Added
+                                  - generic: Add Environment Variables to Production, Preview, and Development environments, including branches in Preview.
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - checkbox [checked]
+                                      - generic:
+                                        - img
+                                  - generic:
+                                    - text: Enable access to
+                                    - link:
+                                      - /url: /docs/environment-variables/system-environment-variables
+                                      - text: System Environment Variables
+                                      - img
+  - alert
+  - generic:
+    - generic:
+      - img
+  - dialog "Add Environment Variable" [ref=e374]:
+    - generic [ref=e375]:
+      - heading "Add Environment Variable" [level=2] [ref=e376]
+      - button "Close" [ref=e377] [cursor=pointer]:
+        - img [ref=e379]
+    - generic [ref=e383]:
+      - generic [ref=e384]:
+        - generic [ref=e385]:
+          - generic [ref=e388]:
+            - generic [ref=e390]:
+              - generic [ref=e391]:
+                - generic [ref=e392]: key
+                - textbox "environment variable key" [ref=e394]: NEXT_PUBLIC_API_BASE_URL
+              - generic "NEXT_PUBLIC_ exposes this value to the browser. Verify it is safe to share publicly" [ref=e466]:
+                - img [ref=e469]
+            - generic [ref=e395]:
+              - generic [ref=e396]: value
+              - generic [ref=e398]:
+                - textbox "shared environment variable value" [ref=e399]:
+                  - /placeholder: https://api.example.com
+                  - text: https://pm-diagnostic-backend-doemteoyhq-an.a.run.app
+                - button "Show value" [ref=e400] [cursor=pointer]:
+                  - img [ref=e402]
+            - generic [ref=e406]:
+              - generic [ref=e407]: Note (Optional)
+              - textbox "shared environment variable comment" [ref=e409]:
+                - /placeholder: Where to rotate, or who to contact
+          - button "Add Another" [ref=e411] [cursor=pointer]:
+            - img [ref=e413]
+            - generic [ref=e415]: Add Another
+        - separator [ref=e418]
+        - generic [ref=e419]:
+          - generic [ref=e421]:
+            - generic "Sensitive" [ref=e422]:
+              - generic [ref=e423]: Sensitive
+              - checkbox "Sensitive" [checked] [ref=e424]
+            - img [ref=e429]
+          - generic [ref=e432]:
+            - generic [ref=e434]: Environments
+            - generic [ref=e435]:
+              - button "Production and Preview" [expanded] [ref=e436] [cursor=pointer]:
+                - generic [ref=e438]:
+                  - img [ref=e440]
+                  - generic [ref=e442]: Production and Preview
+                - img [ref=e444]
+              - generic [ref=e446]:
+                - generic [ref=e448]: Branch
+                - button "Select a Custom Preview Branch" [ref=e450] [cursor=pointer]:
+                  - generic [ref=e451]: Select a Custom Preview Branch
+      - generic [ref=e452]:
+        - generic [ref=e454]:
+          - button "Import .env" [ref=e456] [cursor=pointer]:
+            - img [ref=e458]
+            - generic [ref=e460]: Import .env
+          - paragraph [ref=e461]: or paste .env contents in Key input
+        - button "Save" [ref=e464] [cursor=pointer]:
+          - generic [ref=e465]: Save
+  - dialog [ref=e508]:
+    - generic [ref=e509]:
+      - generic [ref=e510]:
+        - img [ref=e512]
+        - generic [ref=e515]: Production
+      - generic [ref=e517] [cursor=pointer]:
+        - checkbox "Production" [checked] [active] [ref=e518]
+        - img [ref=e520]
+    - generic [ref=e522]:
+      - generic [ref=e523]:
+        - img [ref=e525]
+        - generic [ref=e528]: Preview
+      - generic [ref=e530] [cursor=pointer]:
+        - checkbox "Preview" [checked] [ref=e531]
+        - img [ref=e533]
+    - generic [ref=e536]:
+      - generic [ref=e537]:
+        - img [ref=e539]
+        - generic [ref=e542]: Development
+      - img [ref=e543]

@@ -1,0 +1,142 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "hiro-4211's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /hiro-4211s-projects
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: hiro-4211's projects
+                - generic [ref=e15]: Hobby
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e21]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e34]:
+            - link "Overview" [ref=e35] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend
+              - generic [ref=e39]: Overview
+            - link "Deployments" [ref=e40] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/deployments
+              - img [ref=e42]
+              - generic [ref=e45]: Deployments
+            - link "Logs" [ref=e46] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/logs
+              - img [ref=e48]
+              - generic [ref=e51]: Logs
+            - link "Analytics" [ref=e52] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/analytics
+              - img [ref=e54]
+              - generic [ref=e57]: Analytics
+            - link "Speed Insights" [ref=e58] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/speed-insights
+              - img [ref=e60]
+              - generic [ref=e63]: Speed Insights
+            - link "Observability" [ref=e64] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/observability
+              - img [ref=e66]
+              - generic [ref=e69]: Observability
+              - img [ref=e71]
+            - link "Firewall" [ref=e73] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/firewall
+              - img [ref=e75]
+              - generic [ref=e79]: Firewall
+              - img [ref=e81]
+            - link "CDN" [ref=e83] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/cdn
+              - img [ref=e85]
+              - generic [ref=e88]: CDN
+              - img [ref=e90]
+            - separator [ref=e92]
+            - link "Environment Variables" [ref=e93] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/settings/environment-variables
+              - img [ref=e95]
+              - generic [ref=e98]: Environment Variables
+            - link "Domains" [ref=e99] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/settings/domains
+              - img [ref=e101]
+              - generic [ref=e104]: Domains
+            - link "Integrations" [ref=e105] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/settings/integrations
+              - img [ref=e107]
+              - generic [ref=e110]: Integrations
+            - link "Storage" [ref=e111] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/stores
+              - img [ref=e113]
+              - generic [ref=e116]: Storage
+            - link "Flags" [ref=e117] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/flags
+              - img [ref=e119]
+              - generic [ref=e122]: Flags
+              - img [ref=e124]
+            - link "Agent" [ref=e126] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/agent
+              - img [ref=e128]
+              - generic [ref=e131]: Agent
+              - img [ref=e133]
+            - link "AI Gateway" [ref=e135] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/ai-gateway
+              - img [ref=e137]
+              - generic [ref=e140]: AI Gateway
+              - img [ref=e142]
+            - link "Sandboxes" [ref=e144] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/sandboxes
+              - img [ref=e146]
+              - generic [ref=e149]: Sandboxes
+              - img [ref=e151]
+            - link "Workflows" [ref=e153] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/workflows
+              - img [ref=e155]
+              - generic [ref=e158]: Workflows
+            - separator [ref=e159]
+            - link "Usage" [ref=e160] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/usage
+              - img [ref=e162]
+              - generic [ref=e165]: Usage
+            - link "Support" [ref=e166] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/support
+              - img [ref=e168]
+              - generic [ref=e171]: Support
+            - link "Settings" [ref=e172] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/settings
+              - img [ref=e174]
+              - generic [ref=e177]: Settings
+              - img [ref=e179]
+        - generic [ref=e183]:
+          - button "Avatar for hiro-4211 hiro-4211" [disabled]:
+            - img "Avatar for hiro-4211":
+              - img "Avatar for hiro-4211"
+            - generic:
+              - generic: hiro-4211
+            - generic:
+              - img
+          - img [ref=e186]
+      - button [ref=e189] [cursor=pointer]:
+        - img [ref=e190]
+    - generic [ref=e194]:
+      - generic [ref=e197]:
+        - link "frontend" [ref=e198] [cursor=pointer]:
+          - /url: /hiro-4211s-projects/frontend
+          - generic [ref=e201]: frontend
+        - button [ref=e202] [cursor=pointer]:
+          - img [ref=e204]
+        - link "Back to team view" [ref=e208] [cursor=pointer]:
+          - /url: /hiro-4211s-projects/~/deployments
+          - img [ref=e210]
+      - generic [ref=e214]: Deployments
+      - button "Open page actions menu" [ref=e216] [cursor=pointer]:
+        - img [ref=e218]
+  - alert [ref=e554]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img

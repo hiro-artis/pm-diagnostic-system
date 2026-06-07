@@ -1,0 +1,47 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading "PM協会テスト診断システム" [level=1] [ref=e6]
+        - paragraph [ref=e7]: AI エージェントによる PM 適性診断
+    - main [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - heading "PM基礎知識テスト" [level=2] [ref=e13]
+            - paragraph [ref=e14]: プロジェクト管理の基礎知識について問います
+          - generic [ref=e15]:
+            - generic [ref=e16]: 1/10
+            - generic [ref=e17]: "回答済み: 0問"
+        - generic [ref=e21]:
+          - 'heading "Q1: プロジェクトの定義として正しいものはどれか？" [level=3] [ref=e22]'
+          - generic [ref=e23]:
+            - generic [ref=e25] [cursor=pointer]:
+              - radio "A 継続的で反復的な業務活動" [ref=e26]
+              - generic [ref=e27]: A
+              - generic [ref=e28]: 継続的で反復的な業務活動
+            - generic [ref=e30] [cursor=pointer]:
+              - radio "B 一時的な努力で独特な成果物を生み出す活動" [ref=e31]
+              - generic [ref=e32]: B
+              - generic [ref=e33]: 一時的な努力で独特な成果物を生み出す活動
+            - generic [ref=e35] [cursor=pointer]:
+              - radio "C 組織の日常的な運営活動" [ref=e36]
+              - generic [ref=e37]: C
+              - generic [ref=e38]: 組織の日常的な運営活動
+            - generic [ref=e40] [cursor=pointer]:
+              - radio "D 経営層による意思決定プロセス" [ref=e41]
+              - generic [ref=e42]: D
+              - generic [ref=e43]: 経営層による意思決定プロセス
+        - generic [ref=e44]:
+          - button "前の問題" [disabled] [ref=e45]:
+            - img [ref=e46]
+            - text: 前の問題
+          - button "次の問題" [ref=e48]:
+            - text: 次の問題
+            - img [ref=e49]
+        - generic [ref=e51]: 回答を選択して「次へ」をクリックしてください。 前の問題に戻ることも可能です。
+    - contentinfo [ref=e52]:
+      - generic [ref=e53]:
+        - paragraph [ref=e54]: PM協会テスト診断システム v1.0.0
+        - paragraph [ref=e55]: © 2026 PM Association. All rights reserved.

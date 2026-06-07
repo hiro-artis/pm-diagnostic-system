@@ -1,0 +1,251 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content":
+    - /url: "#geist-skip-nav"
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e9]:
+            - link "hiro-4211's projects Hobby" [ref=e10] [cursor=pointer]:
+              - /url: /hiro-4211s-projects
+              - img [ref=e11]
+              - generic [ref=e12]:
+                - generic [ref=e13]: hiro-4211's projects
+                - generic [ref=e15]: Hobby
+            - button [ref=e16] [cursor=pointer]:
+              - img [ref=e18]
+          - button "Find… F" [ref=e545]:
+            - generic [ref=e23]:
+              - img [ref=e25]
+              - generic [ref=e27]: Find…
+              - generic [ref=e29]: F
+        - navigation [ref=e31]:
+          - generic [ref=e34]:
+            - link "Other Overview" [ref=e319] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend
+              - img "Other" [ref=e320]:
+                - img "Other" [ref=e321]
+              - generic [ref=e39]: Overview
+            - link "Deployments" [ref=e40] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/deployments
+              - img [ref=e42]
+              - generic [ref=e45]: Deployments
+            - link "Logs" [ref=e46] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/logs
+              - img [ref=e48]
+              - generic [ref=e51]: Logs
+            - link "Analytics" [ref=e52] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/analytics
+              - img [ref=e54]
+              - generic [ref=e57]: Analytics
+            - link "Speed Insights" [ref=e58] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/speed-insights
+              - img [ref=e60]
+              - generic [ref=e63]: Speed Insights
+            - link "Observability" [ref=e64] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/observability
+              - img [ref=e66]
+              - generic [ref=e69]: Observability
+              - img [ref=e71]
+            - link "Firewall" [ref=e73] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/firewall
+              - img [ref=e75]
+              - generic [ref=e79]: Firewall
+              - img [ref=e81]
+            - link "CDN" [ref=e83] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/cdn
+              - img [ref=e85]
+              - generic [ref=e88]: CDN
+              - img [ref=e90]
+            - separator [ref=e92]
+            - link "Environment Variables" [ref=e93] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/settings/environment-variables
+              - img [ref=e95]
+              - generic [ref=e98]: Environment Variables
+            - link "Domains" [ref=e99] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/settings/domains
+              - img [ref=e101]
+              - generic [ref=e104]: Domains
+            - link "Integrations" [ref=e105] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/settings/integrations
+              - img [ref=e107]
+              - generic [ref=e110]: Integrations
+            - link "Storage" [ref=e111] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/stores
+              - img [ref=e113]
+              - generic [ref=e116]: Storage
+            - link "Flags" [ref=e117] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/flags
+              - img [ref=e119]
+              - generic [ref=e122]: Flags
+              - img [ref=e124]
+            - link "Agent" [ref=e126] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/agent
+              - img [ref=e128]
+              - generic [ref=e131]: Agent
+              - img [ref=e133]
+            - link "AI Gateway" [ref=e135] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/ai-gateway
+              - img [ref=e137]
+              - generic [ref=e140]: AI Gateway
+              - img [ref=e142]
+            - link "Sandboxes" [ref=e144] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/sandboxes
+              - img [ref=e146]
+              - generic [ref=e149]: Sandboxes
+              - img [ref=e151]
+            - link "Workflows" [ref=e153] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/workflows
+              - img [ref=e155]
+              - generic [ref=e158]: Workflows
+            - separator [ref=e159]
+            - link "Usage" [ref=e160] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/usage
+              - img [ref=e162]
+              - generic [ref=e165]: Usage
+            - link "Support" [ref=e166] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/support
+              - img [ref=e168]
+              - generic [ref=e171]: Support
+            - link "Settings" [ref=e172] [cursor=pointer]:
+              - /url: /hiro-4211s-projects/frontend/settings
+              - img [ref=e174]
+              - generic [ref=e177]: Settings
+              - img [ref=e179]
+        - generic [ref=e181]:
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - generic [ref=e326]:
+                - generic [ref=e327]: Ship
+                - generic [ref=e329]: "26"
+              - button "Dismiss" [ref=e330] [cursor=pointer]:
+                - img [ref=e332]
+            - generic [ref=e334]:
+              - generic [ref=e335]: Coming to five cities worldwide.
+              - button "Get your ticket" [ref=e337] [cursor=pointer]:
+                - generic [ref=e338]: Get your ticket
+          - generic [ref=e183]:
+            - button "Avatar for hiro-4211 hiro-4211" [ref=e339] [cursor=pointer]:
+              - img "Avatar for hiro-4211" [ref=e340]:
+                - img "Avatar for hiro-4211" [ref=e341]
+              - generic [ref=e343]: hiro-4211
+              - img [ref=e345]
+            - button "2 unseen notifications" [ref=e348] [cursor=pointer]:
+              - generic [ref=e349]:
+                - generic [ref=e350]:
+                  - img
+                - img [ref=e351]
+      - button [ref=e189] [cursor=pointer]:
+        - img [ref=e190]
+    - generic [ref=e193]:
+      - generic [ref=e194]:
+        - generic [ref=e197]:
+          - link "Other frontend" [ref=e353] [cursor=pointer]:
+            - /url: /hiro-4211s-projects/frontend
+            - img "Other" [ref=e354]:
+              - img "Other" [ref=e355]
+            - generic [ref=e201]: frontend
+          - button [ref=e202] [cursor=pointer]:
+            - img [ref=e204]
+          - link "Back to team view" [ref=e208] [cursor=pointer]:
+            - /url: /hiro-4211s-projects/~/settings/environment-variables
+            - img [ref=e210]
+        - generic [ref=e214]: Environment Variables
+        - button "Open page actions menu" [ref=e216] [cursor=pointer]:
+          - img [ref=e218]
+      - generic [ref=e227]:
+        - generic [ref=e229]:
+          - generic [ref=e230]:
+            - heading "Environment Variables" [level=2] [ref=e231]
+            - paragraph [ref=e232]:
+              - text: Store API keys, tokens, and config securely.
+              - link "Learn more" [ref=e233] [cursor=pointer]:
+                - /url: /docs/environment-variables
+                - text: Learn more
+                - img [ref=e234]
+          - generic [ref=e236]:
+            - button "Link Shared Variable" [ref=e238] [cursor=pointer]:
+              - generic [ref=e239]: Link Shared Variable
+            - button "Add Environment Variable" [ref=e240] [cursor=pointer]:
+              - generic [ref=e241]: Add Environment Variable
+        - tablist [ref=e242]:
+          - tab "Project" [selected] [ref=e243] [cursor=pointer]
+          - tab "Shared" [ref=e244] [cursor=pointer]
+        - generic [ref=e245]:
+          - generic [ref=e247]:
+            - searchbox "Search" [ref=e248]
+            - img [ref=e250]
+          - combobox [ref=e253]:
+            - generic [ref=e357]:
+              - searchbox [ref=e358]: All Environments
+              - button "Open menu" [ref=e359] [cursor=pointer]:
+                - img [ref=e360]
+          - combobox [ref=e255]:
+            - generic [ref=e256]:
+              - generic:
+                - img
+              - searchbox "All Editors…" [ref=e257]
+              - button "Open menu" [ref=e258] [cursor=pointer]:
+                - img [ref=e259]
+          - generic [ref=e261]:
+            - generic [ref=e263]:
+              - combobox "Filter variables by status" [ref=e264] [cursor=pointer]:
+                - option "All Variables" [selected]
+                - option "Needs Attention"
+              - generic:
+                - img
+            - generic [ref=e266]:
+              - generic:
+                - img
+              - combobox [ref=e267] [cursor=pointer]:
+                - option "Sort by…" [disabled]
+                - option "Last Updated" [selected]
+                - option "Name"
+                - option "Type"
+              - generic:
+                - img
+        - generic [ref=e268]:
+          - generic [ref=e551]:
+            - generic [ref=e552]:
+              - img [ref=e555]
+              - generic [ref=e557]:
+                - generic [ref=e559]:
+                  - button "NEXT_PUBLIC_API_BASE_URL" [ref=e561] [cursor=pointer]:
+                    - generic "NEXT_PUBLIC_API_BASE_URL" [ref=e562]:
+                      - generic [ref=e564]: NEXT_PUBLIC_API_BASE_URL
+                  - generic [ref=e565]: Sensitive
+                - generic [ref=e569]: Production and Preview
+            - generic [ref=e571]:
+              - generic [ref=e573]:
+                - generic [ref=e575] [cursor=pointer]:
+                  - generic [ref=e576]: Added
+                  - text: just now
+                - img [ref=e579]
+              - button "Menu" [ref=e582] [cursor=pointer]:
+                - img [ref=e587]
+          - generic [ref=e312]:
+            - generic [ref=e367] [cursor=pointer]:
+              - checkbox [checked] [ref=e368]
+              - img [ref=e370]
+            - generic [ref=e314]:
+              - text: Enable access to
+              - link "System Environment Variables" [ref=e315] [cursor=pointer]:
+                - /url: /docs/environment-variables/system-environment-variables
+                - text: System Environment Variables
+                - img [ref=e316]
+  - alert [ref=e318]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - img
+  - 'alertdialog "success: Added Environment Variable successfully. A new deployment is needed for changes to take effect." [ref=e589]':
+    - generic [ref=e590]:
+      - generic [ref=e591]:
+        - generic [ref=e592]: "success:"
+        - generic [ref=e593]: Added Environment Variable successfully. A new deployment is needed for changes to take effect.
+      - generic [ref=e594]:
+        - button "Dismiss" [ref=e595] [cursor=pointer]:
+          - generic [ref=e596]: Dismiss
+        - button "Redeploy" [ref=e597] [cursor=pointer]:
+          - generic [ref=e598]: Redeploy

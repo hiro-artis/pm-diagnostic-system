@@ -1,0 +1,66 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading "PM協会テスト診断システム" [level=1] [ref=e6]
+        - paragraph [ref=e7]: AI エージェントによる PM 適性診断
+    - main [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - heading "PM 適性診断へようこそ" [level=2] [ref=e11]
+          - paragraph [ref=e12]: このテストでは、PM としての基礎知識、実務対応力、そして最も重要なマインドセットを多面的に診断します。
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e16]: "1"
+              - heading "1次テスト" [level=3] [ref=e17]
+            - list [ref=e18]:
+              - listitem [ref=e19]: • PM 基礎知識（10問）
+              - listitem [ref=e20]: • オフィス移転実務（8問）
+              - listitem [ref=e21]: • マインドセット（6シナリオ）
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - generic [ref=e24]: "2"
+              - heading "2次テスト" [level=3] [ref=e25]
+            - paragraph [ref=e26]: 1次テスト合格者対象
+            - list [ref=e27]:
+              - listitem [ref=e28]: • マインドセット面接
+              - listitem [ref=e29]: • 開放型質問
+              - listitem [ref=e30]: • 詳細な検証
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - generic [ref=e33]: "3"
+              - heading "最終評価" [level=3] [ref=e34]
+            - list [ref=e35]:
+              - listitem [ref=e36]: • A / B / C 等級判定
+              - listitem [ref=e37]: • 強み・改善点分析
+              - listitem [ref=e38]: • 推奨事項提示
+        - generic [ref=e40]:
+          - img [ref=e41]
+          - generic [ref=e44]:
+            - heading "所要時間" [level=3] [ref=e45]
+            - paragraph [ref=e46]: 約 60〜90 分です。集中できる環境での実施をお勧めします。
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: ユーザーID（メールアドレス推奨）
+            - textbox "ユーザーID（メールアドレス推奨）" [ref=e50]:
+              - /placeholder: example@company.com
+            - paragraph [ref=e51]: 結果照会時に使用します。メールアドレスまたは社員番号をご入力ください。
+          - button "テストを開始する" [ref=e52] [cursor=pointer]:
+            - text: テストを開始する
+            - img [ref=e53]
+          - paragraph [ref=e55]:
+            - text: このテストはご自身の率直な回答をお願いします。
+            - text: マークシート形式と記述式、自由記述形式が混在しています。
+        - generic [ref=e56]:
+          - heading "注意事項" [level=3] [ref=e57]
+          - list [ref=e58]:
+            - listitem [ref=e59]: • テスト開始後、中断することはできません。時間に余裕を持ってご実施ください。
+            - listitem [ref=e60]: • 正答・不正答ではなく、PM としてのマインドセットを重視しています。
+            - listitem [ref=e61]: • 外部資料の参照や他者への相談は避けてください。
+            - listitem [ref=e62]: • 通信が遮断された場合は、サポートまでお問い合わせください。
+    - contentinfo [ref=e63]:
+      - generic [ref=e64]:
+        - paragraph [ref=e65]: PM協会テスト診断システム v1.0.0
+        - paragraph [ref=e66]: © 2026 PM Association. All rights reserved.

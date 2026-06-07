@@ -150,8 +150,17 @@ class MindsetInterviewAgent(BaseAgent):
                 # Score the response based on content analysis
                 mindset_scores = self._analyze_response(response_text)
 
+                # Extract numeric part from question ID (e.g., 'Q1' -> 1, '1' -> 1)
+                try:
+                    if isinstance(question_num, str) and question_num.startswith('Q'):
+                        num = int(question_num[1:])
+                    else:
+                        num = int(question_num)
+                except (ValueError, IndexError):
+                    num = 0
+
                 scored_responses.append({
-                    "question_number": int(question_num),
+                    "question_number": num,
                     "response_text": response_text,
                     "evaluated_mindsets": mindset_scores,
                     "consistency_with_primary": self._check_consistency(
