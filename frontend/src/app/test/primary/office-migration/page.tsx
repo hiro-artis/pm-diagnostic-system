@@ -1,7 +1,9 @@
 'use client'
 
+export const dynamic = 'force-dynamic'
+
 import { useState, Suspense } from 'react'
-import { useRouter, useSearchParams } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import { ArrowRight, ArrowLeft, AlertCircle } from 'lucide-react'
 import { useTestContext } from '@/contexts/TestContext'
 
@@ -123,7 +125,8 @@ function OfficeMigrationContent() {
       if (section === 'mc') {
         setError('回答を選択してください')
       } else {
-        setError(`200字以上300字以内で答えてください（現在：${essayAnswers[essayQuestion.id]?.length || 0}字）`)
+        const currentAnswer = contextAnswers?.officeMigrationEssay?.[essayQuestion.id] || ''
+        setError(`200字以上300字以内で答えてください（現在：${currentAnswer.length}字）`)
       }
       return
     }
@@ -222,7 +225,7 @@ function OfficeMigrationContent() {
                 >
                   <div
                     className={`flex items-center p-4 rounded-lg border-2 transition-all ${
-                      mcAnswers[mcQuestion.id] === option.value
+                      contextAnswers?.officeMigrationMc?.[mcQuestion.id] === option.value
                         ? 'border-blue-600 bg-blue-50'
                         : 'border-gray-200 bg-white hover:border-gray-300'
                     }`}
@@ -231,7 +234,7 @@ function OfficeMigrationContent() {
                       type="radio"
                       name={`question-${mcQuestion.id}`}
                       value={option.value}
-                      checked={mcAnswers[mcQuestion.id] === option.value}
+                      checked={contextAnswers?.officeMigrationMc?.[mcQuestion.id] === option.value}
                       onChange={() => handleMcAnswer(option.value)}
                       className="w-5 h-5 text-blue-600 cursor-pointer"
                     />
