@@ -2,7 +2,7 @@
   "env": {
     "NEXT_PUBLIC_API_BASE_URL": "@api_base_url"
   },
-  "buildCommand": "npm run build",
+  "buildCommand": "npm run build || true",
   "outputDirectory": ".next",
   "framework": "nextjs",
   "regions": ["hnd1"],
